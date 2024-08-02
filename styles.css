@@ -1,0 +1,126 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+     font-family: "Poppins", sans-serif;
+     background-color: #fafafa;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+}
+
+.sidebar {
+    width: 252px;
+    background-color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    /* justify-content: center; */
+}
+
+.nav {
+    width: 100%;
+}
+
+.nav ul {
+    list-style: none;
+    padding: 0;
+    width: 100%;
+}
+
+.nav-item {
+    margin: 15px 0;
+    display: flex;
+    align-items: center;
+}
+
+.nav-item a {
+    text-decoration: none;
+    color: #8E92BC;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    width: 100% ;
+
+    padding: 10px 15px;
+}
+
+.nav-item a img {
+    margin-right: 15px;
+}
+
+.help-center {
+    margin-top: auto;
+    width: 100%;
+    height: 248px;
+    border-radius: 10px;
+    background-color: #0C0507;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    padding: 20px;
+    gap: 10px;
+    position: relative;
+}
+
+.help-center .question {
+    top: -10%;
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    background-color: #f9f7f8;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.help-center .question .circle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 36px;
+    height: 36px;
+    background-color: #0C0507;
+    border-radius: 50%;
+}
+
+.help-center .content {
+    flex:1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+
+
+.help-center h2 {
+    font-size: 16px;
+}
+
+.help-center p {
+    font-size: 12px;
+    text-align: center;
+}
+
+.help-center button{
+    width: 100%;
+    padding: 10px;
+    background-color: #fff;
+    color: #0C0507;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: auto;
+}
